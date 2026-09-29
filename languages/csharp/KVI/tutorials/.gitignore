@@ -1,0 +1,50 @@
+# ============================================================
+# .gitignore for KingpoolSuite/languages/csharp/KVI/tutorials
+# Visual Studio 2019 / .NET Framework
+# ============================================================
+
+# Visual Studio local settings and cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# NuGet
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Others
+*.bak
+*.orig
+*.pidb
+*.svclog
